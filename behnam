@@ -5,3 +5,5 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/howtorestoration/howtorestoration.git
 git push -u origin main
+curl -H "Authorization: Bearer $TOKEN" \n
+  https://api.cloudflare.com/client/v4/accounts/f61a1540ac92e5d9801e1747fd8832bd/stream/1b53ba6b81b35b392bd25a9315bf954c
