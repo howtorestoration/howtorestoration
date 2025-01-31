@@ -7,3 +7,52 @@ git remote add origin https://github.com/howtorestoration/howtorestoration.git
 git push -u origin main
 curl -H "Authorization: Bearer $TOKEN" \n
   https://api.cloudflare.com/client/v4/accounts/f61a1540ac92e5d9801e1747fd8832bd/stream/1b53ba6b81b35b392bd25a9315bf954c
+{
+  "uid": "1b53ba6b81b35b392bd25a9315bf954c",
+  "creator": null,
+  "thumbnail": "https://customer-h5sab5csb9tyb60q.cloudflarestream.com/1b53ba6b81b35b392bd25a9315bf954c/thumbnails/thumbnail.jpg",
+  "thumbnailTimestampPct": 0,
+  "readyToStream": true,
+  "readyToStreamAt": "2025-01-31T23:33:19.784346Z",
+  "status": {
+    "state": "ready",
+    "pctComplete": "100.000000",
+    "errorReasonCode": "",
+    "errorReasonText": ""
+  },
+  "meta": {
+    "filename": "I Turned This $1 Axe Into a Masterpiece.mp4",
+    "filetype": "video/mp4",
+    "name": "I Turned This $1 Axe Into a Masterpiece.mp4",
+    "relativePath": "null",
+    "type": "video/mp4"
+  },
+  "created": "2025-01-31T23:10:51.983409Z",
+  "modified": "2025-01-31T23:34:57.008551Z",
+  "scheduledDeletion": null,
+  "size": 4259583733,
+  "preview": "https://customer-h5sab5csb9tyb60q.cloudflarestream.com/1b53ba6b81b35b392bd25a9315bf954c/watch",
+  "allowedOrigins": [],
+  "requireSignedURLs": false,
+  "uploaded": "2025-01-31T23:10:51.983403Z",
+  "uploadExpiry": "2025-02-01T23:10:51.983397Z",
+  "maxSizeBytes": null,
+  "maxDurationSeconds": null,
+  "duration": 814.6,
+  "input": {
+    "width": 3840,
+    "height": 2160
+  },
+  "playback": {
+    "hls": "https://customer-h5sab5csb9tyb60q.cloudflarestream.com/1b53ba6b81b35b392bd25a9315bf954c/manifest/video.m3u8",
+    "dash": "https://customer-h5sab5csb9tyb60q.cloudflarestream.com/1b53ba6b81b35b392bd25a9315bf954c/manifest/video.mpd"
+  },
+  "watermark": null,
+  "clippedFrom": null,
+  "publicDetails": {
+    "title": "",
+    "share_link": "",
+    "channel_link": "",
+    "logo": ""
+  }
+}
